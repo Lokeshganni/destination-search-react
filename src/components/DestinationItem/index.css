@@ -1,0 +1,28 @@
+/* Write your CSS here */
+
+.li-container {
+  list-style-type: none;
+  margin: 0 15px 30px 5px;
+}
+
+.img-item {
+  width: 250px;
+}
+
+@media screen and (min-width: 768px) {
+  .img-item {
+    width: 260px;
+  }
+}
+
+img,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.li-para {
+  margin-top: 7px;
+  font-size: 14px;
+  font-weight: 500;
+}
